@@ -17,7 +17,7 @@ def start(env=None, requests=None, logger=None, time=None, updater=None):
   # Update to match the pin connected to your NeoPixels
   # pixel_pin = board.D6
   # Update to match the number of NeoPixels you have connected
-  num_pixels = 100
+  num_pixels = 200
   pixel_pin = 26
   pixels = neo.Pixel(Pin(pixel_pin, Pin.OUT), num_pixels)
 

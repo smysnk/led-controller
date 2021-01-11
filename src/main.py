@@ -19,7 +19,7 @@ def start(env=None, requests=None, logger=None, time=None, updater=None):
   # Update to match the number of NeoPixels you have connected
   num_pixels = 100
   pixel_pin = 26
-  pixels = neopixel.NeoPixel(Pin(pixel_pin, Pin.OUT), num_pixels)
+  pixels = neopixel.NeoPixel(Pin(pixel_pin, Pin.OUT), num_pixels, timing=0)
 
   # pixels = neopixel.NeoPixel(pixel_pin, pixel_num, brightness=0.5, auto_write=False)
 

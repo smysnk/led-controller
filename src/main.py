@@ -29,4 +29,4 @@ def start(env=None, requests=None, logger=None, time=None, updater=None):
   while True:
     animations.animate()
 
-start()
+# start()

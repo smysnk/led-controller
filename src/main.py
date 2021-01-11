@@ -1,4 +1,4 @@
-import neo
+import neopixel
 from machine import Pin
 # from adafruit_led_animation.animation.blink import Blink
 # import adafruit_led_animation.color as color
@@ -19,7 +19,7 @@ def start(env=None, requests=None, logger=None, time=None, updater=None):
   # Update to match the number of NeoPixels you have connected
   num_pixels = 300
   pixel_pin = 26
-  pixels = neo.Pixel(Pin(pixel_pin, Pin.OUT), num_pixels)
+  pixels = neopixel.NeoPixel(Pin(pixel_pin, Pin.OUT), num_pixels)
 
   # pixels = neopixel.NeoPixel(pixel_pin, pixel_num, brightness=0.5, auto_write=False)
 

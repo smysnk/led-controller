@@ -11,6 +11,9 @@ from src.adafruit_led_animation.color import PURPLE, AMBER, JADE
 
 def start(env=None, requests=None, logger=None, time=None, updater=None):
 
+  log = logger(append='main')
+  log("Starting..")
+
   # Update to match the pin connected to your NeoPixels
   # pixel_pin = board.D6
   # Update to match the number of NeoPixels you have connected

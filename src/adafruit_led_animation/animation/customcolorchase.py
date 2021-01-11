@@ -44,8 +44,8 @@ Implementation Notes
 
 """
 
-from adafruit_led_animation.animation.chase import Chase
-from adafruit_led_animation.color import RAINBOW
+from src.adafruit_led_animation.animation.chase import Chase
+from src.adafruit_led_animation.color import RAINBOW
 
 
 class CustomColorChase(Chase):

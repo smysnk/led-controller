@@ -44,7 +44,7 @@ Implementation Notes
 """
 
 import random
-from adafruit_led_animation.color import BLACK
+from src.adafruit_led_animation.color import BLACK
 from . import MS_PER_SECOND, monotonic_ms
 
 __version__ = "0.0.0-auto.0"
@@ -72,7 +72,7 @@ class AnimationSequence:
 
         import board
         import neopixel
-        from adafruit_led_animation.sequence import AnimationSequence
+        from src.adafruit_led_animation.sequence import AnimationSequence
         import adafruit_led_animation.animation.comet as comet_animation
         import adafruit_led_animation.animation.sparkle as sparkle_animation
         import adafruit_led_animation.animation.blink as blink_animation
@@ -288,10 +288,10 @@ class AnimateOnce(AnimationSequence):
 
         import board
         import neopixel
-        from adafruit_led_animation.animation.comet import Comet
-        from adafruit_led_animation.animation.pulse import Pulse
-        from adafruit_led_animation.color import BLUE, RED
-        from adafruit_led_animation.sequence import AnimateOnce
+        from src.adafruit_led_animation.animation.comet import Comet
+        from src.adafruit_led_animation.animation.pulse import Pulse
+        from src.adafruit_led_animation.color import BLUE, RED
+        from src.adafruit_led_animation.sequence import AnimateOnce
 
         strip_pixels = neopixel.NeoPixel(board.A1, 30, brightness=0.5, auto_write=False)
 

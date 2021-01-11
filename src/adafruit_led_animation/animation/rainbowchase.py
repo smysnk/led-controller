@@ -43,8 +43,8 @@ Implementation Notes
 
 """
 
-from adafruit_led_animation.color import colorwheel
-from adafruit_led_animation.animation.chase import Chase
+from src.adafruit_led_animation.color import colorwheel
+from src.adafruit_led_animation.animation.chase import Chase
 
 
 class RainbowChase(Chase):

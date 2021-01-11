@@ -43,8 +43,8 @@ Implementation Notes
 
 """
 
-from adafruit_led_animation.animation.comet import Comet
-from adafruit_led_animation.color import colorwheel, BLACK, calculate_intensity
+from src.adafruit_led_animation.animation.comet import Comet
+from src.adafruit_led_animation.color import colorwheel, BLACK, calculate_intensity
 
 
 class RainbowComet(Comet):

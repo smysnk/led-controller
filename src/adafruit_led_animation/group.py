@@ -46,7 +46,7 @@ Implementation Notes
 __version__ = "0.0.0-auto.0"
 __repo__ = "https://github.com/adafruit/Adafruit_CircuitPython_LED_Animation.git"
 
-from adafruit_led_animation.animation import Animation
+from src.adafruit_led_animation.animation import Animation
 
 
 class AnimationGroup:
@@ -66,11 +66,11 @@ class AnimationGroup:
             import board
             import neopixel
             from adafruit_circuitplayground import cp
-            from adafruit_led_animation.animation.blink import Blink
-            from adafruit_led_animation.animation.comet import Comet
-            from adafruit_led_animation.animation.chase import Chase
-            from adafruit_led_animation.group import AnimationGroup
-            from adafruit_led_animation.sequence import AnimationSequence
+            from src.adafruit_led_animation.animation.blink import Blink
+            from src.adafruit_led_animation.animation.comet import Comet
+            from src.adafruit_led_animation.animation.chase import Chase
+            from src.adafruit_led_animation.group import AnimationGroup
+            from src.adafruit_led_animation.sequence import AnimationSequence
 
             import adafruit_led_animation.color as color
 

@@ -45,7 +45,7 @@ Implementation Notes
 
 from math import ceil
 
-from adafruit_led_animation.animation import Animation
+from src.adafruit_led_animation.animation import Animation
 
 
 class Chase(Animation):

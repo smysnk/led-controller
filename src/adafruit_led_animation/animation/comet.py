@@ -43,8 +43,8 @@ Implementation Notes
 
 """
 
-from adafruit_led_animation.animation import Animation
-from adafruit_led_animation.color import BLACK, calculate_intensity
+from src.adafruit_led_animation.animation import Animation
+from src.adafruit_led_animation.color import BLACK, calculate_intensity
 
 
 class Comet(Animation):

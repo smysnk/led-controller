@@ -43,7 +43,7 @@ Implementation Notes
 
 """
 
-from adafruit_led_animation.animation import Animation
+from src.adafruit_led_animation.animation import Animation
 
 
 class Pulse(Animation):
@@ -76,7 +76,7 @@ class Pulse(Animation):
         dotstar = len(self.pixel_object[0]) == 4 and isinstance(
             self.pixel_object[0][-1], float
         )
-        from adafruit_led_animation.helper import (  # pylint: disable=import-outside-toplevel
+        from src.adafruit_led_animation.helper import (  # pylint: disable=import-outside-toplevel
             pulse_generator,
         )
 

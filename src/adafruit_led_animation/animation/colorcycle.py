@@ -43,8 +43,8 @@ Implementation Notes
 
 """
 
-from adafruit_led_animation.animation import Animation
-from adafruit_led_animation.color import RAINBOW
+from src.adafruit_led_animation.animation import Animation
+from src.adafruit_led_animation.color import RAINBOW
 
 
 class ColorCycle(Animation):

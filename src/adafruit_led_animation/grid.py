@@ -71,7 +71,7 @@ class PixelGrid:
         import board
         import neopixel
         import time
-        from adafruit_led_animation.grid import PixelGrid, VERTICAL
+        from src.adafruit_led_animation.grid import PixelGrid, VERTICAL
 
         pixels = neopixel.NeoPixel(board.D11, 256, auto_write=False)
 

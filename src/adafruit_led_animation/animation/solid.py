@@ -43,7 +43,7 @@ Implementation Notes
 
 """
 
-from adafruit_led_animation.animation.colorcycle import ColorCycle
+from src.adafruit_led_animation.animation.colorcycle import ColorCycle
 
 
 class Solid(ColorCycle):

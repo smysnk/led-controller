@@ -62,7 +62,7 @@ class PixelMap:
 
         import board
         import neopixel
-        from adafruit_led_animation.helper import PixelMap
+        from src.adafruit_led_animation.helper import PixelMap
         pixels = neopixel.NeoPixel(board.D6, 32, auto_write=False)
 
         pixel_wing_horizontal = PixelMap(pixels, [(0, 8), (8, 16), (16, 24), (24, 32)])
@@ -76,7 +76,7 @@ class PixelMap:
 
         import board
         import neopixel
-        from adafruit_led_animation.helper import PixelMap
+        from src.adafruit_led_animation.helper import PixelMap
         pixels = neopixel.NeoPixel(board.D6, 32, auto_write=False)
 
         pixel_wing_vertical = PixelMap(pixels, [
@@ -100,7 +100,7 @@ class PixelMap:
         import board
         import neopixel
         import time
-        from adafruit_led_animation.helper import PixelMap
+        from src.adafruit_led_animation.helper import PixelMap
 
         pixels = neopixel.NeoPixel(board.D6, 8, auto_write=False)
 
@@ -315,7 +315,7 @@ class PixelSubset(PixelMap):
 
         import board
         import neopixel
-        from adafruit_led_animation.helper import PixelSubset
+        from src.adafruit_led_animation.helper import PixelSubset
         pixels = neopixel.NeoPixel(board.D12, 307, auto_write=False)
 
         star_start = 260

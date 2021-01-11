@@ -43,7 +43,7 @@ Implementation Notes
 """
 
 import random
-from adafruit_led_animation.animation.rainbow import Rainbow
+from src.adafruit_led_animation.animation.rainbow import Rainbow
 
 
 class RainbowSparkle(Rainbow):

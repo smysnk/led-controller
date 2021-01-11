@@ -3,11 +3,11 @@ from machine import Pin
 # from adafruit_led_animation.animation.blink import Blink
 # import adafruit_led_animation.color as color
 
-from adafruit_led_animation.animation.blink import Blink
-from adafruit_led_animation.animation.comet import Comet
-from adafruit_led_animation.animation.chase import Chase
-from adafruit_led_animation.sequence import AnimationSequence
-from adafruit_led_animation.color import PURPLE, AMBER, JADE
+from src.adafruit_led_animation.animation.blink import Blink
+from src.adafruit_led_animation.animation.comet import Comet
+from src.adafruit_led_animation.animation.chase import Chase
+from src.adafruit_led_animation.sequence import AnimationSequence
+from src.adafruit_led_animation.color import PURPLE, AMBER, JADE
 
 def start(env=None, requests=None, logger=None, time=None, updater=None):
 

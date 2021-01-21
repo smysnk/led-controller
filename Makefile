@@ -15,7 +15,8 @@ image:
 	esptool.py --chip esp32 --port ${RSHELL_PORT} --baud 460800 write_flash -z 0x1000 ${ESP_IMAGE}
 
 rsync: clean
-	rshell rsync src /pyboard
+	rshell rsync src /pyboard/src
+	rshell rsync root /pyboard
 
 repl:
 	rshell repl
